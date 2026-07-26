@@ -3,7 +3,7 @@
   <h1>Latest posts</h1>
   {{ $posts := where .Site.RegularPages "Section" "posts" }}
   {{ range first 5 $posts.ByDate.Reverse }}
-  <article class="post-card">{{ with .Params.image }}<a class="post-thumbnail" href="{{ $.RelPermalink }}"><img src="{{ . | relURL }}" alt="{{ $.Title }}"></a>{{ end }}<div class="post-card-content"><p class="date">{{ .Date.Format "2006.01.02" }}</p><h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>{{ with .Params.tags }}<div class="tags">{{ range . }}<a class="tag" href="{{ printf "/tags/%s/" (. | urlize) | relURL }}">{{ . }}</a>{{ end }}</div>{{ end }}</div></article>
+  {{ $post := . }}<article class="post-card">{{ with .Params.image }}<a class="post-thumbnail" href="{{ $post.RelPermalink }}"><img src="{{ . | relURL }}" alt="{{ $post.Title }}"></a>{{ end }}<div class="post-card-content"><p class="date">{{ .Date.Format "2006.01.02" }}</p><h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>{{ with .Params.tags }}<div class="tags">{{ range . }}<a class="tag" href="{{ printf "/tags/%s/" (. | urlize) | relURL }}">{{ . }}</a>{{ end }}</div>{{ end }}</div></article>
   {{ else }}<p>最初の記事を準備中です。</p>{{ end }}
 </section>
 {{ end }}
