@@ -1,0 +1,10 @@
+baseURL = "https://blog.kentalog.com/"
+publishDir = "docs"
+locale = "ja-JP"
+title = "kentalog blog"
+
+[params]
+  description = "AI × Creative"
+
+[markup.goldmark.renderer]
+  hardWraps = true
