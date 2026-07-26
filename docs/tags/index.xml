@@ -1,1 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on kentalog blog</title><link>https://blog.kentalog.com/tags/</link><description>Recent content in Tags on kentalog blog</description><generator>Hugo</generator><language>ja-JP</language><lastBuildDate>Fri, 01 Apr 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.kentalog.com/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>エッセイ</title><link>https://blog.kentalog.com/tags/%E3%82%A8%E3%83%83%E3%82%BB%E3%82%A4/</link><pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate><guid>https://blog.kentalog.com/tags/%E3%82%A8%E3%83%83%E3%82%BB%E3%82%A4/</guid><description/></item><item><title>家族</title><link>https://blog.kentalog.com/tags/%E5%AE%B6%E6%97%8F/</link><pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate><guid>https://blog.kentalog.com/tags/%E5%AE%B6%E6%97%8F/</guid><description/></item><item><title>食</title><link>https://blog.kentalog.com/tags/%E9%A3%9F/</link><pubDate>Fri, 11 Mar 2016 00:00:00 +0000</pubDate><guid>https://blog.kentalog.com/tags/%E9%A3%9F/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Tags on kentalog blog</title>
+		<link>https://blog.kentalog.com/tags/</link>
+		<description>Recent content in Tags on kentalog blog</description>
+		<generator>Hugo</generator>
+		<language>ja-JP</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 01 Apr 2016 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://blog.kentalog.com/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>エッセイ</title>
+				<link>https://blog.kentalog.com/tags/%E3%82%A8%E3%83%83%E3%82%BB%E3%82%A4/</link>
+				<pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+				<guid>https://blog.kentalog.com/tags/%E3%82%A8%E3%83%83%E3%82%BB%E3%82%A4/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>家族</title>
+				<link>https://blog.kentalog.com/tags/%E5%AE%B6%E6%97%8F/</link>
+				<pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+				<guid>https://blog.kentalog.com/tags/%E5%AE%B6%E6%97%8F/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>食</title>
+				<link>https://blog.kentalog.com/tags/%E9%A3%9F/</link>
+				<pubDate>Fri, 11 Mar 2016 00:00:00 +0000</pubDate>
+				<guid>https://blog.kentalog.com/tags/%E9%A3%9F/</guid>
+				<description></description>
+			</item>
+	</channel>
+</rss>

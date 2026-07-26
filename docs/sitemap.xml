@@ -1,1 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://blog.kentalog.com/posts/</loc><lastmod>2016-04-01T00:00:00+00:00</lastmod></url><url><loc>https://blog.kentalog.com/</loc><lastmod>2016-04-01T00:00:00+00:00</lastmod></url><url><loc>https://blog.kentalog.com/tags/</loc><lastmod>2016-04-01T00:00:00+00:00</lastmod></url><url><loc>https://blog.kentalog.com/tags/%E3%82%A8%E3%83%83%E3%82%BB%E3%82%A4/</loc><lastmod>2016-04-01T00:00:00+00:00</lastmod></url><url><loc>https://blog.kentalog.com/posts/boku-wa-obachan-no-te-o-nigiru/</loc><lastmod>2016-04-01T00:00:00+00:00</lastmod></url><url><loc>https://blog.kentalog.com/tags/%E5%AE%B6%E6%97%8F/</loc><lastmod>2016-04-01T00:00:00+00:00</lastmod></url><url><loc>https://blog.kentalog.com/posts/itsumo-no-katsu-curry/</loc><lastmod>2016-03-11T00:00:00+00:00</lastmod></url><url><loc>https://blog.kentalog.com/tags/%E9%A3%9F/</loc><lastmod>2016-03-11T00:00:00+00:00</lastmod></url><url><loc>https://blog.kentalog.com/categories/</loc></url><url><loc>https://blog.kentalog.com/projects/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://blog.kentalog.com/posts/</loc>
+    <lastmod>2016-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.kentalog.com/</loc>
+    <lastmod>2016-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.kentalog.com/tags/</loc>
+    <lastmod>2016-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.kentalog.com/tags/%E3%82%A8%E3%83%83%E3%82%BB%E3%82%A4/</loc>
+    <lastmod>2016-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.kentalog.com/posts/boku-wa-obachan-no-te-o-nigiru/</loc>
+    <lastmod>2016-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.kentalog.com/tags/%E5%AE%B6%E6%97%8F/</loc>
+    <lastmod>2016-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.kentalog.com/posts/itsumo-no-katsu-curry/</loc>
+    <lastmod>2016-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.kentalog.com/tags/%E9%A3%9F/</loc>
+    <lastmod>2016-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.kentalog.com/categories/</loc>
+  </url><url>
+    <loc>https://blog.kentalog.com/projects/</loc>
+  </url>
+</urlset>
