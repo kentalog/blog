@@ -1,5 +1,6 @@
 baseURL = "https://blog.kentalog.com/"
 publishDir = "docs"
+relativeURLs = true
 locale = "ja-JP"
 title = "kentalog blog"
 
