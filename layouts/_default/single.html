@@ -6,4 +6,50 @@
   {{ with .Params.image }}<figure class="eyecatch"><img src="{{ . | relURL }}" alt="{{ $.Title }}"></figure>{{ end }}
   {{ .Content }}
 </article>
+
+<div class="article-circulation">
+{{ $current := . }}
+{{ $currentTags := .Params.tags | default (slice) }}
+{{ $related := slice }}
+{{ range (where .Site.RegularPages "Section" "posts").ByDate.Reverse }}
+{{ $postTags := .Params.tags | default (slice) }}
+{{ if and (ne .RelPermalink $current.RelPermalink) (gt (len (intersect $currentTags $postTags)) 0) }}
+{{ $related = $related | append . }}
+{{ end }}
+{{ end }}
+
+{{ with (first 3 $related) }}
+  <section class="related-posts" aria-labelledby="related-posts-title">
+    <h2 id="related-posts-title">関連記事</h2>
+    <div class="related-post-list">
+{{ range . }}
+      <a class="related-post" href="{{ .RelPermalink }}">
+        <span class="related-post-date">{{ .Date.Format "2006.01.02" }}</span>
+        <strong>{{ .Title }}</strong>
+        {{ with .Params.tags }}<span class="related-post-tags">{{ delimit . " · " }}</span>{{ end }}
+      </a>
+{{ end }}
+    </div>
+  </section>
+{{ end }}
+
+{{ if or .PrevInSection .NextInSection }}
+  <nav class="post-navigation" aria-label="前後の記事">
+{{ with .PrevInSection }}
+    <a class="post-navigation-link post-navigation-prev" href="{{ .RelPermalink }}">
+      <span>← 前の記事</span>
+      <strong>{{ .Title }}</strong>
+    </a>
+{{ end }}
+{{ with .NextInSection }}
+    <a class="post-navigation-link post-navigation-next" href="{{ .RelPermalink }}">
+      <span>次の記事 →</span>
+      <strong>{{ .Title }}</strong>
+    </a>
+{{ end }}
+  </nav>
+{{ end }}
+
+  <a class="article-blog-home" href="{{ "/" | relURL }}">← Blog top</a>
+</div>
 {{ end }}
